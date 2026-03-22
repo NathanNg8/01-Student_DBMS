@@ -51,7 +51,7 @@ public class StudentManagementGUI extends Application {
         );
 
         Scene scene = new Scene(tabPane);
-        scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
+        // CSS stylesheet removed - not needed for basic functionality
         primaryStage.setScene(scene);
         primaryStage.show();
 
