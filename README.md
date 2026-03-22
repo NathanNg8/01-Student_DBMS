@@ -68,6 +68,6 @@ This project was created to further develop and enhance my Java programming skil
 
 1. Set up MySQL database: `mysql -u root -p < student_management.sql`
 2. Update credentials in `DBConnection.java`
-3. Compile: `javac -cp "mysql-connector-j-9.6.0.jar" *.java`
-4. Run: `java -cp ".;mysql-connector-j-9.6.0.jar" MainDriver`
+3. Compile: `javac --module-path "C:\javafx-sdk-26\lib" --add-modules javafx.controls -cp "mysql-connector-j-9.6.0.jar" *.java`
+4. Run: `java --module-path "C:\javafx-sdk-26\lib" --add-modules javafx.controls -cp ".;mysql-connector-j-9.6.0.jar" StudentManagementGUI`
 
